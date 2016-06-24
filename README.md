@@ -3,7 +3,6 @@
 
 ![](http://www.gruntjs.net/img/grunt-logo.png)
 
-
 ## 为什么要使用Grunt？
 Grunt生态系统非常庞大，并且一直在增长。由于拥有数量庞大的插件可供选择，因此，你可以利用Grunt自动完成任何事，并且花费最少的代价。
 如果找不到你所需要的插件，那就自己动手创造一个Grunt插件，然后将其发布到npm上吧。先看看[入门文档](http://www.gruntjs.net/getting-started)吧。
@@ -11,27 +10,34 @@ Grunt生态系统非常庞大，并且一直在增长。由于拥有数量庞大
 ## 为何要用构建工具？
 一句话：自动化。对于需要反复重复的任务，例如压缩（minification）、编译、单元测试、linting等，自动化工具可以减轻你的劳动，简化你的工作。当你在 Gruntfile 文件正确配置好了任务，任务运行器就会自动帮你或你的小组完成大部分无聊的工作。
 
+* Grunt：[http://gruntjs.com/](http://gruntjs.com/) （英文）、[http://gruntjs.cn/](http://gruntjs.cn/)（中文）、[http://www.gruntjs.net/getting-started](http://www.gruntjs.net/getting-started) Grunt快速入门
+
+
 可用的Grunt插件
 你所需要的大多数task都已经作为Grunt插件被开发了出来，并且每天都有更多的插件诞生。插件列表页面列出了完整的清单。下面给出几个你可能听说过的插件：
 [grunt-contrib-coffee](https://www.npmjs.com/package/grunt-contrib-coffee),[grunt-contrib-stylus](https://www.npmjs.com/package/grunt-contrib-stylus),[grunt-contrib-less](https://www.npmjs.com/package/grunt-contrib-less),[grunt-contrib-sass](https://www.npmjs.com/package/grunt-contrib-sass)
 
-快速入门
 
-Grunt和 Grunt 插件是通过 npm 安装并管理的，npm是 Node.js 的包管理器。
+### 快速入门
 
-Grunt 0.4.x 必须配合Node.js >= 0.8.0版本使用。；奇数版本号的 Node.js 被认为是不稳定的开发版。
 
-在安装 Grunt 前，请确保当前环境中所安装的 npm 已经是最新版本，执行 npm update -g npm 指令进行升级（在某些系统中可能需要 sudo 指令）。
+* Grunt和 Grunt 插件是通过 npm 安装并管理的，npm是 Node.js 的包管理器。
 
-如果你已经安装了 Grunt，现在需要参考一些文档手册，那就请看一看 Gruntfile 实例 和如何 配置任务吧。
+* Grunt 0.4.x 必须配合Node.js >= 0.8.0版本使用。；奇数版本号的 Node.js 被认为是不稳定的开发版。
 
-安装 CLI
-还在使用 Grunt 0.3 版本吗？请查看 Grunt 0.3 注意事项
+* 在安装 Grunt 前，请确保当前环境中所安装的 npm 已经是最新版本，执行 npm update -g npm 指令进行升级（在某些系统中可能需要 sudo 指令）。
 
-在继续学习前，你需要先将Grunt命令行（CLI）安装到全局环境中。安装时可能需要使用sudo（针对OSX、*nix、BSD等系统中）权限或者作为管理员（对于Windows环境）来执行以下命令。
+* 如果你已经安装了 Grunt，现在需要参考一些文档手册，那就请看一看 Gruntfile 实例 和如何 配置任务吧。
+
+### 安装 CLI
+
+* 还在使用 Grunt 0.3 版本吗？请查看 Grunt 0.3 注意事项
+* 在继续学习前，你需要先将Grunt命令行（CLI）安装到全局环境中。安装时可能需要使用sudo（针对OSX、*nix、BSD等系统中）权限或者作为管理员（对于Windows环境）来执行以下命令。
+
 ```
 npm install -g grunt-cli
 ```
+
 上述命令执行完后，grunt 命令就被加入到你的系统路径中了，以后就可以在任何目录下执行此命令了。
 
 注意，安装grunt-cli并不等于安装了 Grunt！Grunt CLI的任务很简单：调用与Gruntfile在同一目录中 Grunt。这样带来的好处是，允许你在同一个系统上同时安装多个版本的 Grunt。
